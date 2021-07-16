@@ -20,9 +20,6 @@ netbox_tags:
   - tag3
 ```
 
-Based on Rigel Di Scala's excellent [AWX Inventory Script example](https://gist.github.com/zedr/6979ab2fc49fe13e752a9896d6195c4d).
-Modified by Farid Joubbi.
-
 
 ## Instructions
 1. Copy the contents of towerbox.py as a custom script under Inventory Scripts in Ansible Tower.
@@ -32,3 +29,6 @@ Modified by Farid Joubbi.
 
 
 This script is tested with Ansible Tower 3.7.4 and NetBox v2.11.7.
+
+Based on Rigel Di Scala's excellent [AWX Inventory Script example](https://gist.github.com/zedr/6979ab2fc49fe13e752a9896d6195c4d).
+Modified by Farid Joubbi.
